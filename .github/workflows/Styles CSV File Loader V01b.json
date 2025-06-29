@@ -1,0 +1,1758 @@
+{
+  "workflow": {
+    "id": "fc614578-57c2-456d-b290-86f357bd87d6",
+    "revision": 0,
+    "last_node_id": 44,
+    "last_link_id": 78,
+    "nodes": [
+      {
+        "id": 7,
+        "type": "SaveImage",
+        "pos": [
+          1985.0341796875,
+          221.45860290527344
+        ],
+        "size": [
+          270,
+          58
+        ],
+        "flags": {},
+        "order": 0,
+        "mode": 0,
+        "inputs": [
+          {
+            "name": "images",
+            "type": "IMAGE",
+            "link": null
+          }
+        ],
+        "outputs": [],
+        "properties": {
+          "cnr_id": "comfy-core",
+          "ver": "0.3.43",
+          "widget_ue_connectable": {}
+        },
+        "widgets_values": [
+          "ComfyUI"
+        ]
+      },
+      {
+        "id": 40,
+        "type": "Text Concatenate",
+        "pos": [
+          1282.89306640625,
+          198.63009643554688
+        ],
+        "size": [
+          270,
+          142
+        ],
+        "flags": {},
+        "order": 2,
+        "mode": 0,
+        "inputs": [
+          {
+            "name": "text_a",
+            "shape": 7,
+            "type": "STRING",
+            "link": 54
+          },
+          {
+            "name": "text_b",
+            "shape": 7,
+            "type": "STRING",
+            "link": 55
+          },
+          {
+            "name": "text_c",
+            "shape": 7,
+            "type": "STRING",
+            "link": 62
+          },
+          {
+            "name": "text_d",
+            "shape": 7,
+            "type": "STRING",
+            "link": 63
+          }
+        ],
+        "outputs": [
+          {
+            "name": "STRING",
+            "type": "STRING",
+            "links": [
+              60
+            ]
+          }
+        ],
+        "properties": {
+          "cnr_id": "was-ns",
+          "ver": "3.0.0",
+          "Node name for S&R": "Text Concatenate",
+          "widget_ue_connectable": {}
+        },
+        "widgets_values": [
+          ",     ",
+          "true"
+        ]
+      },
+      {
+        "id": 41,
+        "type": "Text Concatenate",
+        "pos": [
+          1282.89306640625,
+          411.9060363769531
+        ],
+        "size": [
+          270,
+          142
+        ],
+        "flags": {},
+        "order": 3,
+        "mode": 0,
+        "inputs": [
+          {
+            "name": "text_a",
+            "shape": 7,
+            "type": "STRING",
+            "link": 64
+          },
+          {
+            "name": "text_b",
+            "shape": 7,
+            "type": "STRING",
+            "link": 65
+          },
+          {
+            "name": "text_c",
+            "shape": 7,
+            "type": "STRING",
+            "link": 66
+          },
+          {
+            "name": "text_d",
+            "shape": 7,
+            "type": "STRING",
+            "link": 67
+          }
+        ],
+        "outputs": [
+          {
+            "name": "STRING",
+            "type": "STRING",
+            "links": [
+              68
+            ]
+          }
+        ],
+        "properties": {
+          "cnr_id": "was-ns",
+          "ver": "3.0.0",
+          "Node name for S&R": "Text Concatenate",
+          "widget_ue_connectable": {}
+        },
+        "widgets_values": [
+          ",     ",
+          "true"
+        ]
+      },
+      {
+        "id": 36,
+        "type": "Text Concatenate",
+        "pos": [
+          1663.192626953125,
+          302.7150573730469
+        ],
+        "size": [
+          270,
+          142
+        ],
+        "flags": {},
+        "order": 4,
+        "mode": 0,
+        "inputs": [
+          {
+            "name": "text_a",
+            "shape": 7,
+            "type": "STRING",
+            "link": 60
+          },
+          {
+            "name": "text_b",
+            "shape": 7,
+            "type": "STRING",
+            "link": 68
+          },
+          {
+            "name": "text_c",
+            "shape": 7,
+            "type": "STRING",
+            "link": 69
+          },
+          {
+            "name": "text_d",
+            "shape": 7,
+            "type": "STRING",
+            "link": 70
+          }
+        ],
+        "outputs": [
+          {
+            "name": "STRING",
+            "type": "STRING",
+            "links": [
+              39
+            ]
+          }
+        ],
+        "properties": {
+          "cnr_id": "was-ns",
+          "ver": "3.0.0",
+          "Node name for S&R": "Text Concatenate",
+          "widget_ue_connectable": {}
+        },
+        "widgets_values": [
+          ",     ",
+          "true"
+        ]
+      },
+      {
+        "id": 38,
+        "type": "Text Concatenate",
+        "pos": [
+          1979.7861328125,
+          511.4070739746094
+        ],
+        "size": [
+          270,
+          142
+        ],
+        "flags": {},
+        "order": 5,
+        "mode": 0,
+        "inputs": [
+          {
+            "name": "text_a",
+            "shape": 7,
+            "type": "STRING",
+            "link": 39
+          },
+          {
+            "name": "text_b",
+            "shape": 7,
+            "type": "STRING",
+            "link": 73
+          },
+          {
+            "name": "text_c",
+            "shape": 7,
+            "type": "STRING",
+            "link": null
+          },
+          {
+            "name": "text_d",
+            "shape": 7,
+            "type": "STRING",
+            "link": null
+          }
+        ],
+        "outputs": [
+          {
+            "name": "STRING",
+            "type": "STRING",
+            "links": [
+              78
+            ]
+          }
+        ],
+        "properties": {
+          "cnr_id": "was-ns",
+          "ver": "3.0.0",
+          "Node name for S&R": "Text Concatenate",
+          "widget_ue_connectable": {}
+        },
+        "widgets_values": [
+          ",     ",
+          "true"
+        ]
+      },
+      {
+        "id": 44,
+        "type": "Display Any (rgthree)",
+        "pos": [
+          1215.9752197265625,
+          714.3304443359375
+        ],
+        "size": [
+          707.0333862304688,
+          230.21849060058594
+        ],
+        "flags": {},
+        "order": 6,
+        "mode": 0,
+        "inputs": [
+          {
+            "dir": 3,
+            "name": "source",
+            "type": "*",
+            "link": 78
+          }
+        ],
+        "outputs": [],
+        "properties": {
+          "cnr_id": "rgthree-comfy",
+          "ver": "1.0.2506081210",
+          "Node name for S&R": "Display Any (rgthree)",
+          "widget_ue_connectable": {}
+        },
+        "widgets_values": [
+          ""
+        ]
+      },
+      {
+        "id": 26,
+        "type": "workflow>sa",
+        "pos": [
+          855.9967651367188,
+          331.8489990234375
+        ],
+        "size": [
+          297.93182373046875,
+          654
+        ],
+        "flags": {},
+        "order": 1,
+        "mode": 0,
+        "inputs": [],
+        "outputs": [
+          {
+            "name": "positive prompt",
+            "type": "STRING",
+            "links": [
+              54
+            ]
+          },
+          {
+            "label": "positive prompt 2",
+            "name": "Load Styles CSV positive prompt",
+            "type": "STRING",
+            "links": [
+              55
+            ]
+          },
+          {
+            "label": "positive prompt",
+            "name": "Load Styles CSV 2 positive prompt",
+            "type": "STRING",
+            "links": [
+              62
+            ]
+          },
+          {
+            "label": "positive prompt",
+            "name": "Load Styles CSV 3 positive prompt",
+            "type": "STRING",
+            "links": [
+              63
+            ]
+          },
+          {
+            "label": "positive prompt",
+            "name": "Load Styles CSV 4 positive prompt",
+            "type": "STRING",
+            "links": [
+              64
+            ]
+          },
+          {
+            "label": "positive prompt",
+            "name": "Load Styles CSV 5 positive prompt",
+            "type": "STRING",
+            "links": [
+              65
+            ]
+          },
+          {
+            "label": "positive prompt",
+            "name": "Load Styles CSV 6 positive prompt",
+            "type": "STRING",
+            "links": [
+              66
+            ]
+          },
+          {
+            "label": "positive prompt",
+            "name": "Load Styles CSV 7 positive prompt",
+            "type": "STRING",
+            "links": [
+              67
+            ]
+          },
+          {
+            "label": "positive prompt",
+            "name": "Load Styles CSV 8 positive prompt",
+            "type": "STRING",
+            "links": [
+              69
+            ]
+          },
+          {
+            "label": "positive prompt",
+            "name": "Load Styles CSV 9 positive prompt",
+            "type": "STRING",
+            "links": [
+              70
+            ]
+          },
+          {
+            "name": "negative prompt",
+            "type": "STRING",
+            "links": [
+              73
+            ]
+          }
+        ],
+        "properties": {
+          "Node name for S&R": "workflow>sa",
+          "widget_ue_connectable": {}
+        },
+        "widgets_values": [
+          [
+            "One",
+            "One",
+            "",
+            ""
+          ],
+          [
+            "Two",
+            "Two",
+            "",
+            ""
+          ],
+          [
+            "Three",
+            "Three",
+            "",
+            ""
+          ],
+          [
+            "Four",
+            "Four",
+            "",
+            ""
+          ],
+          [
+            "Five",
+            "Five",
+            "",
+            ""
+          ],
+          [
+            "Six",
+            "Six",
+            "",
+            ""
+          ],
+          [
+            "Seven",
+            "Seven",
+            "",
+            ""
+          ],
+          [
+            "Eight",
+            "Eight",
+            "",
+            ""
+          ],
+          [
+            "Nine",
+            "Nine",
+            "",
+            ""
+          ],
+          [
+            "Negative Prompt",
+            "",
+            "score_4_down, score_3_down, score_2_down, score_3, score_2, score_1, score_0, low quality, highlights, shadows, cropped, JPEG artifacts, text, trademark, watermark, censored"
+          ]
+        ]
+      }
+    ],
+    "links": [
+      [
+        39,
+        36,
+        0,
+        38,
+        0,
+        "STRING"
+      ],
+      [
+        54,
+        26,
+        0,
+        40,
+        0,
+        "STRING"
+      ],
+      [
+        55,
+        26,
+        1,
+        40,
+        1,
+        "STRING"
+      ],
+      [
+        60,
+        40,
+        0,
+        36,
+        0,
+        "STRING"
+      ],
+      [
+        62,
+        26,
+        2,
+        40,
+        2,
+        "STRING"
+      ],
+      [
+        63,
+        26,
+        3,
+        40,
+        3,
+        "STRING"
+      ],
+      [
+        64,
+        26,
+        4,
+        41,
+        0,
+        "STRING"
+      ],
+      [
+        65,
+        26,
+        5,
+        41,
+        1,
+        "STRING"
+      ],
+      [
+        66,
+        26,
+        6,
+        41,
+        2,
+        "STRING"
+      ],
+      [
+        67,
+        26,
+        7,
+        41,
+        3,
+        "STRING"
+      ],
+      [
+        68,
+        41,
+        0,
+        36,
+        1,
+        "STRING"
+      ],
+      [
+        69,
+        26,
+        8,
+        36,
+        2,
+        "STRING"
+      ],
+      [
+        70,
+        26,
+        9,
+        36,
+        3,
+        "STRING"
+      ],
+      [
+        73,
+        26,
+        10,
+        38,
+        1,
+        "STRING"
+      ],
+      [
+        78,
+        38,
+        0,
+        44,
+        0,
+        "*"
+      ]
+    ],
+    "groups": [],
+    "config": {},
+    "extra": {
+      "ue_links": [],
+      "links_added_by_ue": [],
+      "frontendVersion": "1.18.5",
+      "groupNodes": {
+        "sa": {
+          "nodes": [
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                976.8794555664062,
+                328.9156494140625
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 2,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 0
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                975.5300903320312,
+                465.4425354003906
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 3,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 1
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                976.2637939453125,
+                606.2424926757812
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 4,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 2
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                971.8634643554688,
+                739.7091064453125
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 5,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 3
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                975.5299682617188,
+                875.3758544921875
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 6,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 4
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                981.3968505859375,
+                1016.9091186523438
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 7,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 5
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                982.1300659179688,
+                1158.44189453125
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 8,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 6
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                983.2699584960938,
+                1310.6461181640625
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 9,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 7
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                987.5570068359375,
+                1446.4068603515625
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 10,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 8
+            },
+            {
+              "id": -1,
+              "type": "Load Styles CSV",
+              "pos": [
+                996.13134765625,
+                1593.5997314453125
+              ],
+              "size": [
+                270,
+                78
+              ],
+              "flags": {},
+              "order": 11,
+              "mode": 0,
+              "inputs": [
+                {
+                  "localized_name": "styles",
+                  "name": "styles",
+                  "type": "COMBO",
+                  "widget": {
+                    "name": "styles"
+                  },
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "localized_name": "positive prompt",
+                  "name": "positive prompt",
+                  "type": "STRING",
+                  "links": []
+                },
+                {
+                  "localized_name": "negative prompt",
+                  "name": "negative prompt",
+                  "type": "STRING",
+                  "links": []
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfyui-styles_csv_loader",
+                "ver": "75ae517cde4b5c6e43882eb15d34c100bcfea0b2",
+                "widget_ue_connectable": {},
+                "Node name for S&R": "Load Styles CSV"
+              },
+              "widgets_values": [
+                [
+                  ""
+                ]
+              ],
+              "index": 9
+            }
+          ],
+          "links": [],
+          "external": [],
+          "config": {
+            "0": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            },
+            "1": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            },
+            "2": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            },
+            "3": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            },
+            "4": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            },
+            "5": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            },
+            "6": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            },
+            "7": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            },
+            "8": {
+              "output": {
+                "1": {
+                  "visible": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "version": 0.4
+  },
+  "prompt": {
+    "36": {
+      "inputs": {
+        "delimiter": "${comfyrawworkflowinputtexttextconcatenatenodedelimiterbk:,     }",
+        "clean_whitespace": "${comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebk:true}",
+        "text_a": [
+          "40",
+          0
+        ],
+        "text_b": [
+          "41",
+          0
+        ],
+        "text_c": [
+          "26:8",
+          0
+        ],
+        "text_d": [
+          "26:9",
+          0
+        ]
+      },
+      "class_type": "Text Concatenate",
+      "_meta": {
+        "title": "Text Concatenate"
+      }
+    },
+    "38": {
+      "inputs": {
+        "delimiter": "${comfyrawworkflowinputtexttextconcatenatenodedelimiterbm:,     }",
+        "clean_whitespace": "${comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebm:true}",
+        "text_a": [
+          "36",
+          0
+        ],
+        "text_b": [
+          "26:9",
+          1
+        ]
+      },
+      "class_type": "Text Concatenate",
+      "_meta": {
+        "title": "Text Concatenate"
+      }
+    },
+    "40": {
+      "inputs": {
+        "delimiter": "${comfyrawworkflowinputtexttextconcatenatenodedelimiterbo:,     }",
+        "clean_whitespace": "${comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebo:true}",
+        "text_a": [
+          "26:0",
+          0
+        ],
+        "text_b": [
+          "26:1",
+          0
+        ],
+        "text_c": [
+          "26:2",
+          0
+        ],
+        "text_d": [
+          "26:3",
+          0
+        ]
+      },
+      "class_type": "Text Concatenate",
+      "_meta": {
+        "title": "Text Concatenate"
+      }
+    },
+    "41": {
+      "inputs": {
+        "delimiter": "${comfyrawworkflowinputtexttextconcatenatenodedelimiterbp:,     }",
+        "clean_whitespace": "${comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebp:true}",
+        "text_a": [
+          "26:4",
+          0
+        ],
+        "text_b": [
+          "26:5",
+          0
+        ],
+        "text_c": [
+          "26:6",
+          0
+        ],
+        "text_d": [
+          "26:7",
+          0
+        ]
+      },
+      "class_type": "Text Concatenate",
+      "_meta": {
+        "title": "Text Concatenate"
+      }
+    },
+    "44": {
+      "inputs": {
+        "output": "${comfyrawworkflowinputtextdisplayanyrgthreenodeoutputbs:}",
+        "source": [
+          "38",
+          0
+        ]
+      },
+      "class_type": "Display Any (rgthree)",
+      "_meta": {
+        "title": "Display Any (rgthree)"
+      }
+    },
+    "200": {
+      "inputs": {},
+      "class_type": "SwarmSaveImageWS",
+      "_meta": {
+        "title": "Save Image"
+      }
+    },
+    "26:0": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "One",
+            "One",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:1": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Two",
+            "Two",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:2": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Three",
+            "Three",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:3": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Four",
+            "Four",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:4": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Five",
+            "Five",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:5": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Six",
+            "Six",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:6": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Seven",
+            "Seven",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:7": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Eight",
+            "Eight",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:8": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Nine",
+            "Nine",
+            "",
+            ""
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    },
+    "26:9": {
+      "inputs": {
+        "styles": {
+          "__value__": [
+            "Negative Prompt",
+            "",
+            "score_4_down, score_3_down, score_2_down, score_3, score_2, score_1, score_0, low quality, highlights, shadows, cropped, JPEG artifacts, text, trademark, watermark, censored"
+          ]
+        }
+      },
+      "class_type": "Load Styles CSV",
+      "_meta": {
+        "title": "Load Styles CSV"
+      }
+    }
+  },
+  "custom_params": {
+    "comfyrawworkflowinputtextdisplayanyrgthreenodeoutputbs": {
+      "name": "output",
+      "default": "",
+      "id": "comfyrawworkflowinputtextdisplayanyrgthreenodeoutputbs",
+      "type": "text",
+      "description": "The output input for Display Any (rgthree) (Node 44) (text)",
+      "values": null,
+      "view_type": "prompt",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "revalueGetter": null,
+      "no_popover": true,
+      "group": {
+        "name": "Display Any (rgthree) (Node 44)",
+        "id": "displayanyrgthree",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    },
+    "comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebk": {
+      "name": "clean_whitespace",
+      "default": "true",
+      "id": "comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebk",
+      "type": "dropdown",
+      "description": "The clean_whitespace input for Text Concatenate (Node 36) (dropdown)",
+      "values": [
+        "true",
+        "false"
+      ],
+      "view_type": "normal",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "no_popover": true,
+      "group": {
+        "name": "Text Concatenate (Node 36)",
+        "id": "textconcatenate",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    },
+    "comfyrawworkflowinputtexttextconcatenatenodedelimiterbk": {
+      "name": "delimiter",
+      "default": ",     ",
+      "id": "comfyrawworkflowinputtexttextconcatenatenodedelimiterbk",
+      "type": "text",
+      "description": "The delimiter input for Text Concatenate (Node 36) (text)",
+      "values": null,
+      "view_type": "prompt",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "revalueGetter": null,
+      "no_popover": true,
+      "group": {
+        "name": "Text Concatenate (Node 36)",
+        "id": "textconcatenate",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    },
+    "comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebm": {
+      "name": "clean_whitespace",
+      "default": "true",
+      "id": "comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebm",
+      "type": "dropdown",
+      "description": "The clean_whitespace input for Text Concatenate (Node 38) (dropdown)",
+      "values": [
+        "true",
+        "false"
+      ],
+      "view_type": "normal",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "no_popover": true,
+      "group": {
+        "name": "Text Concatenate (Node 38)",
+        "id": "textconcatenatebm",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    },
+    "comfyrawworkflowinputtexttextconcatenatenodedelimiterbm": {
+      "name": "delimiter",
+      "default": ",     ",
+      "id": "comfyrawworkflowinputtexttextconcatenatenodedelimiterbm",
+      "type": "text",
+      "description": "The delimiter input for Text Concatenate (Node 38) (text)",
+      "values": null,
+      "view_type": "prompt",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "revalueGetter": null,
+      "no_popover": true,
+      "group": {
+        "name": "Text Concatenate (Node 38)",
+        "id": "textconcatenatebm",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    },
+    "comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebo": {
+      "name": "clean_whitespace",
+      "default": "true",
+      "id": "comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebo",
+      "type": "dropdown",
+      "description": "The clean_whitespace input for Text Concatenate (Node 40) (dropdown)",
+      "values": [
+        "true",
+        "false"
+      ],
+      "view_type": "normal",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "no_popover": true,
+      "group": {
+        "name": "Text Concatenate (Node 40)",
+        "id": "textconcatenatebo",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    },
+    "comfyrawworkflowinputtexttextconcatenatenodedelimiterbo": {
+      "name": "delimiter",
+      "default": ",     ",
+      "id": "comfyrawworkflowinputtexttextconcatenatenodedelimiterbo",
+      "type": "text",
+      "description": "The delimiter input for Text Concatenate (Node 40) (text)",
+      "values": null,
+      "view_type": "prompt",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "revalueGetter": null,
+      "no_popover": true,
+      "group": {
+        "name": "Text Concatenate (Node 40)",
+        "id": "textconcatenatebo",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    },
+    "comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebp": {
+      "name": "clean_whitespace",
+      "default": "true",
+      "id": "comfyrawworkflowinputdropdowntextconcatenatenodecleanwhitespacebp",
+      "type": "dropdown",
+      "description": "The clean_whitespace input for Text Concatenate (Node 41) (dropdown)",
+      "values": [
+        "true",
+        "false"
+      ],
+      "view_type": "normal",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "no_popover": true,
+      "group": {
+        "name": "Text Concatenate (Node 41)",
+        "id": "textconcatenatebp",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    },
+    "comfyrawworkflowinputtexttextconcatenatenodedelimiterbp": {
+      "name": "delimiter",
+      "default": ",     ",
+      "id": "comfyrawworkflowinputtexttextconcatenatenodedelimiterbp",
+      "type": "text",
+      "description": "The delimiter input for Text Concatenate (Node 41) (text)",
+      "values": null,
+      "view_type": "prompt",
+      "min": -9999999999,
+      "max": 9999999999,
+      "step": 1,
+      "visible": true,
+      "toggleable": true,
+      "priority": 0,
+      "advanced": false,
+      "feature_flag": null,
+      "do_not_save": false,
+      "revalueGetter": null,
+      "no_popover": true,
+      "group": {
+        "name": "Text Concatenate (Node 41)",
+        "id": "textconcatenatebp",
+        "open": false,
+        "priority": 0,
+        "advanced": true,
+        "can_shrink": true,
+        "toggles": false
+      }
+    }
+  },
+  "param_values": {},
+  "image": "/imgs/model_placeholder.jpg",
+  "description": "",
+  "enable_in_simple": false
+}
