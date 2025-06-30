@@ -1,5 +1,6 @@
 ﻿name,prompt,negative_prompt
 
+--------------------,,,
 One,"One",,
 Two,"Two",,
 Three,"Three",,
@@ -9,4 +10,5 @@ Six,"Six",,
 Seven,"Seven",,
 Eight,"Eight",,
 Nine,"Nine",,
+Ten,"Ten",,
 Negative Prompt,,"score_4_down, score_3_down, score_2_down, score_3, score_2, score_1, score_0, low quality, highlights, shadows, cropped, JPEG artifacts, text, trademark, watermark, censored"
